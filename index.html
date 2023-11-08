@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生宿舍管理系统</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script>
+        // 在页面加载时检查用户是否已登录
+        window.onload = function() {
+            if (!sessionStorage.getItem('loggedIn')) {
+                // 如果用户未登录，则跳转到登录页面
+                window.location.href = '/login/login.html';
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>学生宿舍管理系统</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="/other/student.php">学生管理</a></li>
+                <li><a href="/other/dormitory.php">宿舍管理</a></li>
+                <li><a href="/other/dorm-managers.php">宿舍楼管</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>系统简介</h2>
+        <p>学生宿舍管理系统对于一个学校来说是必不可少的组成部分。对于学生信息量比较庞大，需要记录存档的数据比较多的学校来说，人工记录是相当麻烦的。为此我们针对目前学校发展的实际情况，通过实地调研之后，对本宿舍管理系统的设计开发做了一个详细的概述。</p>
+        <p>此学生宿舍管理系统采用的是计算机化管理系统做的尽量人性化使用者会感到操作非常方便管理人员需要做的就是将数据输入到系统的数据库中去由于数据库存储容量相当大，而且比较稳定适合较长时间的保存也不容易丢失这无疑是为信息存储量比较大的学校提供了一个方便、快捷的操作方式。</p>
+    </main>
+</body>
+</html>

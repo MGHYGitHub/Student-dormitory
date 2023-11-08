@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background: linear-gradient(to bottom, #f2f2f2, #cccccc);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #cccccc;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.dormitory_managers {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+}
+
+.dormitory_managers h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.delete-btn {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #cc0000;
+}
+
+.edit-btn {
+  background-color: #008000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-btn:hover {
+  background-color: #006600;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  color: #333333;
+}
+
+form input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+
+form button[type="submit"] {
+  background-color: #008000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #006600;
+}
+
+.add-btn {
+  display: inline-block;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #1a1a1a;
+}
+
+.add-form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #cccccc;
+  z-index: 1;
+}
+
+/* 导航栏 */
+nav {
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #f2f2f2;
+    color: #333333;
+  }

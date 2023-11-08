@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加学生</title>
+</head>
+<body>
+    <h1>添加学生</h1>
+    <form action="/increase/add_student.php" method="POST">
+        <label for="student_id">学号：</label>
+        <input type="text" id="student_id" name="student_id" required><br><br>
+        <label for="student_name">姓名：</label>
+        <input type="text" id="student_name" name="student_name" required><br><br>
+        <label for="gender">性别：</label>
+        <select id="gender" name="gender">
+            <option value="男">男</option>
+            <option value="女">女</option>
+        </select><br><br>
+        <label for="department">院系：</label>
+        <input type="text" id="department" name="department" required><br><br>
+        <label for="major">专业：</label>
+        <input type="text" id="major" name="major" required><br><br>
+        <label for="phone">电话：</label>
+        <input type="text" id="phone" name="phone" required><br><br>
+        <label for="dormitory_id">宿舍编号：</label>
+        <input type="text" id="dormitory_id" name="dormitory_id" required><br><br>
+        <label for="checkin_time">入住时间：</label>
+        <input type="date" id="checkin_time" name="checkin_time" required><br><br>
+        <label for="status">状态：</label>
+        <select id="status" name="status">
+            <option value="已入住">已入住</option>
+            <option value="已退宿">已退宿</option>
+        </select><br><br>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
