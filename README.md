@@ -36,9 +36,9 @@ PHP8.0
 数据库图形化:
 Navicat Premium 16
 
-```html
 <details>
 <summary>点击查看图片</summary>
+
 ![](./images/1.png)
 
 ![](./images/2.png)
@@ -60,8 +60,8 @@ Navicat Premium 16
 ![](./images/10.png)
 
 ![](./images/11.png)
+
 </details>
-```
 
 ### 更新3.0
 
